@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   /* background-color: rgb(134, 101, 108); */
+/*background-image: url(https://centroveterinariopacaembu.com.br/wp-content/uploads/2022/09/medicina-veterinaria-preventiva.jpg);*/
+background-color: #0f2525;
+background-repeat: repeat;
+background-size: cover ;
+background-position: center;
+background-attachment: fixed;
+animation: mudarCores 5s infinite;
+
+}
+
+img{
+    height: 300px;
+    margin-left:300px ;
+    
+}
+
+main{
+ border: aquamarine 3px solid ;
+width: 80%;
+margin: auto ; 
+padding: 25px;
+background-color: rgba(100, 136, 130, 0.788);
+border-radius: 20px;
+
+}
+
+p{
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: #061111;
+/* font-weight:450;*/
+/*font-style:italic ; */
+font-stretch: extra-expanded;
+line-height: 30px;
+/*letter-spacing: 15px;*/
+/*word-spacing: 15px;*/
+text-align: center;
+/*text-decoration: underline dashed DarkGreen;*/
+/*text-transform: uppercase;*/
+text-indent: 50px;
+text-shadow: 5px 5px 10px SaddleBrown;
+}
+
+h1{ text-align: center
+     ; text-shadow: 2px 5px 10px RosyBrown;
+
+}
+
+
+
+@keyframes mudarCores {
+0% { 
+    background-color: #774e56;
+
+}
+25% {
+    background-color: #d2691e;
+
+}
+50% { 
+    background-color: #a52a2a;
+
+}
+75% { 
+background-color: #aeaee9;
+}
+
+100% {
+    background-color: darkorchid;
+}
+
+}
